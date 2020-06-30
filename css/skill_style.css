@@ -1,0 +1,89 @@
+
+
+header img{
+  width:750px;
+  margin-left:300px;
+  margin-right: auto;
+}
+
+
+.soft-skill{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px;
+  line-height: 2.0;
+  transition: width 1.5s;
+}
+
+h1{
+  color:#0a5725;
+}
+
+table, th, td{
+	border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+/*---------------------------Soft Skill----------------------------------------*/
+.soft-skill li{
+    text-align: left;
+    max-width: 500px;
+}
+
+#softskill img{
+	border-radius: 50%;
+	transition: 1.0s;
+}
+
+#softskill img:hover{
+	width: 450px;
+	transition: border-radius width 1.0s;
+	border-radius: 3%;
+}
+
+#softskill1{
+	background-color: rgba(250, 248, 240, 0.7);
+	 margin: auto;
+  	width: 100%;
+  	padding-top: 15px;
+  	padding-bottom: 10px;
+}
+
+#softskill2{
+	background-color: rgba(240, 248, 240, 0.7);
+	margin: auto;
+  	width: 100%;
+  	padding-top: 10px;
+  	padding-bottom: 0px;
+  	border-radius: 40px;
+}
+/*---------------------------------------------------------------------------------*/
+
+#language{
+  background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    width: 100%;
+    padding: 25px;
+    padding-right: 0px;
+    padding-left: 0px;
+      	padding-bottom: 50px;
+}
+
+
+/*Technical Skill*/
+#technical{
+	background-color: rgba(250, 250, 250, 0.7);
+	margin: auto;
+  	width: 100%;
+}
+
+.technical-language{
+	display: inline-block;
+	padding: 25px;
+	vertical-align: top;
+}
