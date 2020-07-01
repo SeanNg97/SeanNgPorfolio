@@ -19,15 +19,14 @@ h1{
   color:#0a5725;
 }
 
-table, th, td{
+table{
 	border-collapse: collapse;
 }
 
-th, td {
-  padding: 10px;
-  text-align: left;
-  vertical-align: top;
+tr, th, td {
+  padding: 50px;
 }
+
 
 /*---------------------------Soft Skill----------------------------------------*/
 .soft-skill li{
@@ -64,26 +63,51 @@ th, td {
 }
 /*---------------------------------------------------------------------------------*/
 
-#language{
-  background-color: rgba(255, 255, 255, 0.7);
-    margin: auto;
-    width: 100%;
-    padding: 25px;
-    padding-right: 0px;
-    padding-left: 0px;
-      	padding-bottom: 50px;
-}
-
-
 /*Technical Skill*/
 #technical{
 	background-color: rgba(250, 250, 250, 0.7);
-	margin: auto;
-  	width: 100%;
+  padding-top: 50px;
 }
+
+#technical-language{
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.technical-skill{
+  padding-bottom: 50px;
+}
+
+.technical-skill img{
+  width: 100px;
+}
+
 
 .technical-language{
 	display: inline-block;
 	padding: 25px;
 	vertical-align: top;
+}
+
+
+.bar{
+  background: white;
+  display: block;
+  height: 20px;
+  border: 1px solid #353535;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.bar span{
+  height: 21px;
+  float: left;
+  background: #353535;
+}
+.intermediatepercent{
+  width: 75%;
+}
+.intermediatepercent span{
+  color: white;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 2px;
 }

@@ -5,7 +5,6 @@
 
 .container{
 	animation: transitionIn 1.0s;
-	margin: auto;
 }
 
 progress[value] {
