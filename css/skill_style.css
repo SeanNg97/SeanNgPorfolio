@@ -23,11 +23,6 @@ table{
 	border-collapse: collapse;
 }
 
-tr, th, td {
-  padding: 50px;
-}
-
-
 /*---------------------------Soft Skill----------------------------------------*/
 .soft-skill li{
     text-align: left;
@@ -80,6 +75,10 @@ tr, th, td {
 .technical-skill img{
   width: 100px;
 }
+.technical-skill tr, .technical-skill th, .technical-skill td {
+  padding: 50px;
+}
+
 
 
 .technical-language{
@@ -88,19 +87,29 @@ tr, th, td {
 	vertical-align: top;
 }
 
+.technical-language img{
+  width: 90px;
+  align-items: center;
+}
+
+.technical-language tr, .technical-language th, .technical-language td {
+  padding: 20px;
+}
+
+
 
 .bar{
   background: white;
   display: block;
   height: 20px;
   border: 1px solid #353535;
-  border-radius: 5px;
+  border-radius: 20px;
   overflow: hidden;
 }
 .bar span{
   height: 21px;
   float: left;
-  background: #353535;
+  background: #0a5725;
 }
 .intermediatepercent{
   width: 75%;

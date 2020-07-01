@@ -6,6 +6,10 @@
   transition: 1.0s;
 }
 
+#certificate{
+	padding-bottom: 50px;
+}
+
 #certificate span{
 	text-align: left;
 }

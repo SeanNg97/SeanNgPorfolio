@@ -203,8 +203,11 @@ header{
 	padding: 25px;
 }
 
-.footer .footer-content h1, .footer .footer-content h2{
+.footer .footer-content h1{
 	color: White;
+}
+.footer h2{
+	color: #13ad37;
 }
 
 .footer .footer-content .about .contact span{
@@ -212,6 +215,8 @@ header{
 	font-size: 1.1em;
 	margin-bottom: 20px;
 }
+
+
 
 /*----------Section 1------------*/
 
@@ -294,6 +299,7 @@ header{
 	left: 0px;
 	padding-top: 10px;
 	width: 100%;
+
 }
 
 /*Media queries*/
