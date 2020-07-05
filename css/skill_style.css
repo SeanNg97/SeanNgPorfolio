@@ -126,10 +126,29 @@ table{
 @media (max-width: 768px){
 
   header img{
-    width:300px;
+    width: 100%;
     display: block;
     margin-left:auto;
     margin-right: auto;
+  }
+
+  #softskill img{
+    width: 100%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  #softskill img:hover{
+    width: 100%;
+  }
+
+  .soft-skill{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+
   }
 
 }

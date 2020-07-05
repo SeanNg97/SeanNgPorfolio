@@ -31,7 +31,19 @@
 	transition: .8s;
 }
 
+#certificate img{
+  width: 300px;
+}
+
 #certificate img:hover{
 	width: 600px;
 	transition: width 1.0s;
+}
+
+
+
+@media (max-width: 768px){
+  #certificate img:hover{
+  	width: 100%;
+  }
 }

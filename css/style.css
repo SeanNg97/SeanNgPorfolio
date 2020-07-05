@@ -345,7 +345,7 @@ header{
 	}
 
 	#education img{
- 		width: 400px;
+ 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
@@ -357,7 +357,7 @@ header{
  	}
 
  	#working img{
-		width: 400px;
+		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
