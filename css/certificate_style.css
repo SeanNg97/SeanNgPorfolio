@@ -36,7 +36,7 @@
 }
 
 #certificate img:hover{
-	width: 600px;
+	width: 400px;
 	transition: width 1.0s;
 }
 
@@ -44,6 +44,10 @@
 
 @media (max-width: 768px){
   #certificate img:hover{
-  	width: 100%;
+  	width: 350px;
+  }
+
+  #certificate img{
+    width: 300px;
   }
 }
