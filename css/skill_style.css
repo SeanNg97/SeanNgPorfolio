@@ -76,8 +76,10 @@ table{
   width: 100px;
 }
 .technical-skill tr, .technical-skill th, .technical-skill td {
-  padding: 50px;
+  padding: 30px;
 }
+
+
 
 
 
@@ -148,7 +150,24 @@ table{
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
+  }
 
+.technical-skill tr, .technical-skill td,  .technical-skill th{
+    display: block;
+    width: 100%;
+    border-collapse: collapse;
+    padding-bottom: 0px;
+
+  }
+
+  #technical .technical-skill .techSkillimg{
+    padding-left: 0;
+    padding-top: 0px;
+    padding-bottom: 0;
+  }
+  #technical .technical-skill .techSkillName{
+    padding-top: 0;
+    padding-bottom: 50px;
   }
 
 }
