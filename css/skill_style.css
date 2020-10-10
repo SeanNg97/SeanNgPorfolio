@@ -7,13 +7,6 @@ header img{
 }
 
 
-.soft-skill{
-  display: inline-block;
-  vertical-align: middle;
-  margin: 20px;
-  line-height: 2.0;
-  transition: width 1.5s;
-}
 
 h1{
   color:#0a5725;
@@ -24,6 +17,15 @@ table{
 }
 
 /*---------------------------Soft Skill----------------------------------------*/
+
+.soft-skill{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 30px;
+  line-height: 2.0;
+  transition: width 1.5s;
+}
+
 .soft-skill li{
     text-align: left;
     max-width: 500px;

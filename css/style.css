@@ -3,6 +3,7 @@
 	scroll-behavior: smooth;
 }
 
+
 html, body {
  margin: 0;
 }
@@ -188,7 +189,7 @@ header{
 
 /*For Footer*/
 .footer{
-	background: #303036;
+	background: #353535;
 	color: White;
 	height: 700px;
 	position: relative;
