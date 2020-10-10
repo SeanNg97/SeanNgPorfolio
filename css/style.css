@@ -3,6 +3,10 @@
 	scroll-behavior: smooth;
 }
 
+html, body {
+ margin: 0;
+}
+
 .container{
 	animation: transitionIn 1.0s;
 }
