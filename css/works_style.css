@@ -8,15 +8,15 @@ h3{
 }
 
 .ContentWorks{
-  padding-top: 10vh;
-  padding-bottom:30vh;
-  padding-left:30vh;
-  padding-right:30vh;
+  padding-top: 10px;
+  padding-bottom:30px;
+
 }
 
 
 details summary:hover{
 	transition: all .8s;
+  padding: 25px;
 
 }
 
