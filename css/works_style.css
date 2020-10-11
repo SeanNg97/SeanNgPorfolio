@@ -59,6 +59,11 @@ details{
   width: 100%;
 }
 
+#UIDesign .row .column p{
+  text-align: left;
+}
+
+
 .columnBanner{
     -ms-flex: 50%;
     flex: 50%;
