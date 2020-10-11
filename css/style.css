@@ -86,17 +86,22 @@ nav ul li a:hover{
 
 header{
 	background: #353535;
+
 }
+
+.IndexPage{
+	height: 100vh;
+	}
 /*Profile*/
 
 #profile img{
 	display: inline-block;
 	margin-top: 50px;
- 	margin-left: 250px;
+ 	margin-left: 150px;
  	margin-right: auto;
 	width: 480px;
 	padding-top: 30px;
-	vertical-align: middle;
+	vertical-align: top;
 }
 
 #profile span{
@@ -116,8 +121,14 @@ header{
 }
 
 .profile{
+	padding-top: 130px;
 	display: inline-block;
 	padding-bottom: 50px;
+}
+
+.profile p{
+	max-width:500px;
+	color: #B4B4B4;
 }
 
 .moreinfo a{
@@ -131,7 +142,7 @@ header{
 }
 
 
-.triangle-down {
+.moreinfo .triangle-down {
 	width: 0;
 	height: 0;
 	border-left: 15px solid transparent;
@@ -152,12 +163,12 @@ header{
   100% {left:0px; top:0px;}
 }
 
-.triangle-down:hover {
+.moreinfo .triangle-down:hover {
 border-top: 30px solid White;
 }
 /*-------------------------------------*/
 
-/*For About me*/
+/*For About me
 
 .aboutme{
 	background-color: rgba(255,255,255, 0.8);
@@ -170,7 +181,7 @@ border-top: 30px solid White;
 	max-width: 800px;
 	margin-left: 80px;
 	margin-right: 80px;
-}
+}*/
 /*-------------*/
 
 
@@ -344,8 +355,8 @@ border-top: 30px solid White;
 
 }
 
-/*Media queries*/
-@media (max-width: 768px){
+
+@media screen and (max-width: 800px) {
 	nav ul{
 		display: block;
 	}
@@ -353,6 +364,12 @@ border-top: 30px solid White;
 	nav ul li{
 		display: block;
 	}
+
+}
+
+/*Media queries*/
+@media (max-width: 1200px){
+
 
 	#profile span{
 		display: block;
@@ -366,19 +383,33 @@ border-top: 30px solid White;
 		margin-left: auto;
 		margin-right: auto;
 		width: 250px;
-		padding-top: 30px;
+		padding-top: 0px;
+		margin-top: 10px;
 	}
 
 	.aboutme{
 		display: block;
 	}
 
-	.aboutme p{
+	.profile{
+		padding-top: 0px;
+		display: inline-block;
+		padding-bottom: 50px;
+	}
+
+	.profile p{
+		max-width:500px;
+		color: #B4B4B4;
 		padding-left: 30px;
 		padding-right: 30px;
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+.IndexPage{
+	height: 200vh;
+
+}
 
 
 
