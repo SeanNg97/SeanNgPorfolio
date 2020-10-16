@@ -15,6 +15,18 @@ table{
 	border-collapse: collapse;
 }
 
+#AnimateText {
+  margin: 50px 0 0 0;
+  text-align: center;
+  }
+
+#text {
+  font-size: 50px;
+  display: inline-block;
+  color: #ffffff;
+  border-right: 3px solid #2980b9;
+}
+
 /*---------------------------Soft Skill----------------------------------------*/
 
 .soft-skill{
