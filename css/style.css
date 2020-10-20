@@ -1,15 +1,19 @@
 *{
 	font-family: 'Open Sans', sans-serif, Bahnschrift,Georgia, Arial;
 	scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 
 html, body {
- margin: 0;
+	margin: 0;
+  padding: 0;
 }
 
 .container{
 	animation: transitionIn 1.0s;
+	margin: 0;
+	padding: 0;
 }
 
 progress[value] {
@@ -38,29 +42,35 @@ p{
 
 .education h2, .working h2, .aboutme h2{
 	 color:#0a5725;
+	 margin: 0;
+		padding: 0;
 }
 
 /*For header and navigation bar*/
+
+.topnav .icon {
+  display: none;
+}
+
+
 nav{
 	width: 100%;
-	margin-top: 0px;
-	position: sticky;
+	position: fixed;
+	padding-right: 20px;
+	background: #353535;
 }
 
 nav ul{
 	display: flex;
 	justify-content: flex-end;
-	margin: 0 auto;
-	padding-left:0;
 	text-align: center;
+
 }
 
 nav ul li{
 	list-style: none;
-	position: relative;
 	padding: 10px 5px;
 	transition: 0.3s;
-	box-sizing: border-box;
 }
 
 
@@ -68,6 +78,7 @@ nav ul li a{
 	text-decoration: none;
 	padding: 0 20px;
 	color: white;
+
 }
 
 nav ul li a:hover{
@@ -75,33 +86,39 @@ nav ul li a:hover{
 	border-bottom:2px solid rgb(19, 173, 55);
 	padding-bottom:5px;
 	transition: 0.2s;
+
 }
 
 .current a{
 	color: #13ad37;
 	border-bottom:2px solid rgb(19, 173, 55);
 	padding-bottom:5px;
+
 }
-/*-------------------------------------*/
+
+
+
+
 
 header{
 	background: #353535;
-
 }
 
 .IndexPage{
 	height: 120vh;
+
 	}
+	/*-------------------------------------*/
 /*Profile*/
 
 #profile img{
 	display: inline-block;
-	margin-top: 50px;
+	padding-top: 100px;
  	margin-left: 150px;
  	margin-right: auto;
 	width: 480px;
-	padding-top: 30px;
 	vertical-align: top;
+
 }
 
 #profile span{
@@ -121,7 +138,7 @@ header{
 }
 
 .profile{
-	padding-top: 130px;
+	padding-top: 160px;
 	display: inline-block;
 	padding-bottom: 50px;
 }
@@ -167,23 +184,6 @@ header{
 border-top: 30px solid White;
 }
 /*-------------------------------------*/
-
-/*For About me
-
-.aboutme{
-	background-color: rgba(255,255,255, 0.8);
-	padding-top: 80px;
-	padding-bottom: 80px;
-}
-
-
-.aboutme p{
-	max-width: 800px;
-	margin-left: 80px;
-	margin-right: 80px;
-}*/
-/*-------------*/
-
 
 
 /*For education*/
@@ -357,13 +357,8 @@ border-top: 30px solid White;
 
 
 @media screen and (max-width: 800px) {
-	nav ul{
-		display: block;
-	}
 
-	nav ul li{
-		display: block;
-	}
+
 
 }
 
@@ -383,8 +378,8 @@ border-top: 30px solid White;
 		margin-left: auto;
 		margin-right: auto;
 		width: 250px;
-		padding-top: 0px;
-		margin-top: 10px;
+		padding-top: 100px;
+
 	}
 
 	.aboutme{
