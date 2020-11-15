@@ -8,13 +8,9 @@
 html, body {
 	margin: 0;
   padding: 0;
+	animation: transitionIn 1.0s;
 }
 
-.container{
-	animation: transitionIn 1.0s;
-	margin: 0;
-	padding: 0;
-}
 
 progress[value] {
   vertical-align: top;
@@ -379,7 +375,10 @@ border-top: 30px solid White;
 
 @media screen and (max-width: 800px) {
 
-
+	nav ul{
+		justify-content: center;
+		text-align: center;
+	}
 
 }
 
