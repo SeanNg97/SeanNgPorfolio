@@ -65,7 +65,7 @@ nav ul{
 
 nav ul li{
 	list-style: none;
-	padding: 10px 5px;
+	padding: 10px 3px;
 	transition: 0.3s;
 }
 
@@ -377,7 +377,11 @@ border-top: 30px solid White;
 
 	nav ul{
 		justify-content: center;
-		text-align: center;
+	}
+
+	nav ul li a{
+		padding: 0 10px;
+		font-size: 14px;
 	}
 
 }
