@@ -140,6 +140,21 @@ header{
 	color: #B4B4B4;
 }
 
+.buttonWorks{
+	border: 3px solid #707070;
+	border-radius: 5px;
+	padding: 13px;
+	color:  #707070;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 334px;
+}
+
+.buttonWorks:hover{
+	border: 3px solid #13ad37;
+	color:  #13ad37;
+}
+
 .moreinfo a{
 	list-style: none;
 	color: Grey;
@@ -384,6 +399,9 @@ border-top: 30px solid White;
 		font-size: 14px;
 	}
 
+
+
+
 }
 
 /*Media queries*/
@@ -422,10 +440,16 @@ border-top: 30px solid White;
 		padding-right: 30px;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 50px;
+	}
+
+	.buttonWorks{
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 .IndexPage{
-	height: 150vh;
+	height: 130vh;
 
 }
 
