@@ -356,6 +356,12 @@ border-top: 30px solid White;
 	color: White;
 	transition: all .3s;
 }
+
+.about{
+	margin-left: 100px;
+}
+
+
 /*--------------------------------*/
 
 
@@ -407,6 +413,11 @@ border-top: 30px solid White;
 	padding-left: 25px;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.referees p{
+	text-align: left;
+
 }
 
 .footer .footer-bottom{
@@ -557,6 +568,12 @@ border-top: 30px solid White;
 
 	.footer .referees{
 		display: block;
+		padding-bottom: 30px;
 	}
+
+	.about{
+		margin-left: 0px;
+	}
+
 
 }
