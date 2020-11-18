@@ -36,11 +36,6 @@ p{
 	line-height: 2.0;
 }
 
-.education h2, .working h2, .aboutme h2{
-	 color:#0a5725;
-	 margin: 0;
-		padding: 0;
-}
 
 /*For header and navigation bar*/
 
@@ -54,7 +49,7 @@ nav{
 	position: fixed;
 	padding-right: 20px;
 	background: #353535;
-	border-radius: 0 0 25px 25px;
+	border-radius: 0 0 10px 10px;
 }
 
 nav ul{
@@ -65,7 +60,7 @@ nav ul{
 
 nav ul li{
 	list-style: none;
-	padding: 10px 3px;
+	padding: 5px 3px;
 	transition: 0.3s;
 }
 
@@ -74,7 +69,6 @@ nav ul li a{
 	text-decoration: none;
 	padding: 0 20px;
 	color: white;
-
 }
 
 nav ul li a:hover{
@@ -89,7 +83,6 @@ nav ul li a:hover{
 	color: #13ad37;
 	border-bottom:2px solid rgb(19, 173, 55);
 	padding-bottom:5px;
-
 }
 
 
@@ -106,7 +99,7 @@ header{
 #profile img{
 	display: inline-block;
 	padding-top: 100px;
- 	margin-left: 150px;
+ 	margin-left: 220px;
  	margin-right: auto;
 	width: 480px;
 	vertical-align: top;
@@ -115,18 +108,25 @@ header{
 
 #profile span{
 	margin-left: 50px;
+	margin-top: 80px;
+}
+
+label{
+		line-height: 40px;
 }
 
 .Iam{
 	color:  #13ad37;;
-	font-size: 36px;
+	font-size: 18px;
 	font-weight: 600;
+	letter-spacing: 2px;
 }
 
 .name{
 	color: white;
 	font-weight: bold;
-	font-size: 42px;
+	font-size: 36px;
+	letter-spacing: 2px;
 }
 
 .profile{
@@ -135,10 +135,32 @@ header{
 	padding-bottom: 50px;
 }
 
-.profile p{
-	max-width:500px;
-	color: #B4B4B4;
+
+#text {
+	display: inline-block;
+	color: #c2c2c2;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: 600;
 }
+
+#cursor {
+	display: inline-block;
+	width: 3px;
+	height: 18px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to {
+		background-color: transparent
+	}
+	50% {
+		background-color: white;
+	}
+}
+
 
 .buttonWorks{
 	border: 3px solid #707070;
@@ -147,7 +169,6 @@ header{
 	color:  #707070;
 	font-weight: bold;
 	text-decoration: none;
-	margin-left: 334px;
 }
 
 .buttonWorks:hover{
@@ -193,6 +214,24 @@ border-top: 30px solid White;
 /*-------------------------------------*/
 
 
+
+/*---------------About me----------------*/
+
+#aboutme{
+	padding: 100px;
+}
+
+#aboutme h1, p{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-width: 700px;
+}
+
+
+
+
+
 /*For education*/
 .education{
 	display: inline-block;
@@ -216,7 +255,7 @@ border-top: 30px solid White;
 }
 
 #education{
-	background: rgba(240, 240, 240,0.8);
+	background-color: #F0FFF0;
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
@@ -243,24 +282,20 @@ border-top: 30px solid White;
   	width: 100%;
   	padding-top: 50px;
 		padding-bottom: 80px;
-		background: rgba(250, 250, 250,0.8);
+		background-color:	#FFFAFA;
 }
 
-
-#working .working h2{
-	margin-bottom: 20px;
-	margin-left: 50px;
-}
 
 #working img{
 	border-radius: 20px;
+	margin-left: 10px;
 	width: 750px;
 }
 
 #working ul{
 	line-height: 1.8em;
-	margin-right: 30px;
-	margin-left: 40px;
+	margin-right: 20px;
+	margin-left: 150px;
 }
 
 /*-------------------------------------*/
@@ -502,6 +537,7 @@ border-top: 30px solid White;
 
 	.footer{
 		height: auto;
+
 	}
 
 	.footer .footer-content{
@@ -521,7 +557,6 @@ border-top: 30px solid White;
 
 	.footer .referees{
 		display: block;
-		vertical-align: top;
 	}
 
 }
