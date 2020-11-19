@@ -499,11 +499,9 @@ border-top: 30px solid White;
 
 }
 
-
 	.education{
 		display: block;
 	}
-
 
 	.education ul{
 		margin-left: 30px;
@@ -563,12 +561,6 @@ border-top: 30px solid White;
 	.footer .footer-content .contact-form .contact-btn{
 		width: 90%;
 		margin-right: 32px;
-	}
-
-
-	.footer .referees{
-		display: block;
-		padding-bottom: 30px;
 	}
 
 	.about{
