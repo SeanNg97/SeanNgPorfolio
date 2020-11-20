@@ -8,11 +8,6 @@ header img{
   padding-top: 100px;
 }
 
-
-table{
-	border-collapse: collapse;
-}
-
 #AnimateText {
   margin: 50px 0 0 0;
   text-align: center;
@@ -167,5 +162,15 @@ table{
     margin-right: auto;
     padding-left: 0;
   }
+
+  .card{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cardprogramming{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
 }
