@@ -100,14 +100,14 @@ details{
 }
 
 
-.columnPoster{
+.column3{
     -ms-flex: 33%;
     flex: 33%;
     max-width: 33%;
   padding: 10px 10px;
 }
 
-.columnPoster img {
+.column3 img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
@@ -128,7 +128,7 @@ details{
       max-width: 100%;
   }
 
-  .columnPoster{
+  .column3{
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
