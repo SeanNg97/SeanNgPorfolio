@@ -7,23 +7,40 @@
     <meta charset="utf-8">
     <title> Works | SeanNg</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/works_style.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/works_style.css">
-    <style type="text/css">
-      body{
-        background-size: 100% 100%;
-      }
 
-    </style>
   </head>
   <body>
 
+
+    <!--Side Bar-->
+
+    <div id="sidebar">
+      <nav>
+      <div id="myBtnContainer">
+        <input type="checkbox" name="" value="" id="check">
+            <ul>
+            <li><button class="btn active" onclick="filterSelection('all')">All</button></li>
+            <li><button class="btn" onclick="filterSelection('WebDeisgn')">Web Designed</button></li>
+            <li><button class="btn" onclick="filterSelection('UIUX')">UI/UX Designed</button></li>
+            <li><button class="btn" onclick="filterSelection('Game')">Game Designed</button></li>
+            <li><button class="btn" onclick="filterSelection('Logo')">Logo Designed</button></li>
+            <li><button class="btn" onclick="filterSelection('Banner')">Banner Designed</button></li>
+            <li><button class="btn" onclick="filterSelection('Poster')">Poster Designed</button></li>
+            </ul>
+          </div>
+      </nav>
+    </div>
 
 
 <!--Header and Navigation-->
   <header>
 <div id="navbar">
   <nav>
+    <label for="check" class= "checkbtn">
+      <i class="fas fa-bars" style="margin-top:15px; color: White"></i>
+    </label>
       <ul>
       <li><a href="index.html">About</a></li>
       <li><a href="Skill.html">Skill</a></li>
@@ -31,23 +48,25 @@
       <li><a href="Certificate.html">Certificate</a></li>
     </ul>
   </nav>
+
 </div>
-  </header>
+</header>
+
 
 <div class="container">
 <div class="ContentWorks">
 
+
 <!--WORKS CONTENT-->
-<h2 style="text-align: center; color:#0a5725; padding-top: 100px;">My Works</h2>
 
-<center>
+  <h1 style="text-align: center; padding-top: 100px;">My Works</h1>
 
-  <div id="WebDesign">
-  <details open>
-  <summary>Web Designed</summary>
+  <div class="filterDiv WebDeisgn">
+    <details open>
+      <summary>Web Designed</summary>
   <!-- Logo Grid -->
   <div class="row">
-    <div class="column">
+    <div class="column2">
       <a href="https://seanng97.github.io/Emoji-With-JS/" target="_blank">
         <div class="card">
           <img src="img/WebDesign/emojipage.jpg" alt="emoji_Image">
@@ -58,7 +77,7 @@
       </a>
     </div>
 
-    <div class="column">
+    <div class="column2">
       <a href="https://seanng97.github.io/TributePage_StanLee/" target="_blank">
       <div class="card">
         <img src="img/WebDesign/tribute.jpg" alt="Tribute_Image">
@@ -70,7 +89,7 @@
     </div>
 
 
-    <div class="column">
+    <div class="column2">
       <a href="https://seanng97.github.io/DiaryWeb/"  target="_blank">
       <div class="card">
         <img src="img/WebDesign/diarypage.jpg" alt="DiaryWeb_Image">
@@ -81,7 +100,7 @@
       </a>
     </div>
 
-    <div class="column">
+    <div class="column2">
       <a href="http://fitnessforus.unaux.com/" target="_blank">
       <div class="card">
         <img src="img/WebDesign/fitnessforus.jpg" alt="fitnessforus_Image">
@@ -93,11 +112,10 @@
 
     </div>
   </div>
-  </details>
   </div>
+</details>
 
-
-  <div id="UIDesign">
+  <div class="filterDiv UIUX">
 <details open>
   <summary>UI/UX Designed</summary>
   <!-- Logo Grid -->
@@ -118,9 +136,8 @@
 </details>
 </div>
 
-
-
 <!-- Game Designed -->
+  <div class="filterDiv Game">
 <details open>
   <summary>Game Designed</summary>
   <!-- Game Grid -->
@@ -160,9 +177,9 @@
   </div>
 </details>
 
+</div>
 
-
-<div id="LogoDesign">
+<div class="filterDiv Logo">
 <details open>
   <summary>Logo Designed</summary>
   <!-- Logo Grid -->
@@ -188,21 +205,22 @@
 </div>
 
 
-<div id="BannerDesign">
+
+<div class="filterDiv Banner">
 <details open>
   <summary>Banner Designed</summary>
 <!-- Banner Grid -->
 <div class="row">
-  <div class="columnBanner">
+  <div class="column2">
     <img src="img/Banner/banner cny2019 NEW.jpg" style="width:100%">
   </div>
-  <div class="columnBanner">
+  <div class="column2">
     <img src="img/Banner/banner new.jpg" style="width:100%">
   </div>
-  <div class="columnBanner">
+  <div class="column2">
     <img src="img/Banner/BANNER PRE-EVENT.png" style="width:100%">
   </div>
-  <div class="columnBanner">
+  <div class="column2">
     <img src="img/Banner/banner RFM1.jpg" style="width:100%">
     <img src="img/Banner/BANNER.jpg" style="width:100%">
   </div>
@@ -211,7 +229,10 @@
 </div>
 
 
-<div id="PosterDesign">
+
+
+
+<div class="filterDiv Poster">
 <details open>
   <summary>Poster Designed</summary>
   <!-- Logo Grid -->
@@ -233,9 +254,6 @@
 </div>
 
 
-
-
-</center>
 </div>  <!--ContentWorks-->
 
 
@@ -325,7 +343,7 @@
   </footer>
 
 </div> <!--Container-->
-
+<script src="js/worksFilter.js"></script>
 <script src="js/js.js"></script>
   </body>
 </html>

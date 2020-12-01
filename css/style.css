@@ -44,7 +44,8 @@ p{
 }
 
 
-nav{
+#navbar nav{
+
 	width: 100%;
 	position: fixed;
 	padding-right: 20px;
@@ -52,26 +53,26 @@ nav{
 	border-radius: 0 0 10px 10px;
 }
 
-nav ul{
+#navbar nav ul{
 	display: flex;
 	justify-content: flex-end;
 	text-align: center;
 }
 
-nav ul li{
+#navbar nav ul li{
 	list-style: none;
 	padding: 5px 3px;
 	transition: 0.3s;
 }
 
 
-nav ul li a{
+#navbar nav ul li a{
 	text-decoration: none;
 	padding: 0 20px;
 	color: white;
 }
 
-nav ul li a:hover{
+#navbar nav ul li a:hover{
 	color: #13ad37;
 	border-bottom:2px solid rgb(19, 173, 55);
 	padding-bottom:5px;
@@ -440,11 +441,11 @@ border-top: 30px solid White;
 
 @media screen and (max-width: 800px) {
 
-	nav ul{
+	#navbar nav ul{
 		justify-content: center;
 	}
 
-	nav ul li a{
+	#navbar nav ul li a{
 		padding: 0 10px;
 		font-size: 14px;
 	}
