@@ -21,7 +21,11 @@ h3{
 }
 
 .btn:hover {
-  background-color: #ddd;
+  background-color: #bab7b2;
+}
+
+li button a:hover{
+  color: black;
 }
 
 .btn.active {
