@@ -365,7 +365,7 @@ border-top: 30px solid White;
 }
 
 .about{
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 
@@ -374,7 +374,10 @@ border-top: 30px solid White;
 
 
 
-/*----------Section 3------------*/
+/*----------Section 2------------*/
+
+
+
 .footer .footer-content .contact-form .contact-input{
 	background: #272727;
 	color: #bebdbd;
