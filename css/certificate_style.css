@@ -1,5 +1,13 @@
 
 
+.container{
+  height: 100vh;
+}
+
+details{
+  margin-bottom: 30px;
+}
+
 .certificate{
   display: inline-block;
   vertical-align: middle;
