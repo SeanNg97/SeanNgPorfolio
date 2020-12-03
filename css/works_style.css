@@ -13,22 +13,19 @@ h3{
 }
 
 /* Style the buttons */
-.btn {
+.button {
   border: none;
   outline: none;
   cursor: pointer;
   background-color: #353535;
 }
 
-.btn:hover {
+.button:hover {
   background-color: #bab7b2;
 }
 
-li button a:hover{
-  color: black;
-}
 
-.btn.active {
+.button.active {
   background-color: #666;
 }
 

@@ -309,7 +309,7 @@ border-top: 30px solid White;
 .footer{
 	background: #353535;
 	color: White;
-	height: 700px;
+	height: 500px;
 	position: relative;
 }
 
@@ -319,6 +319,7 @@ border-top: 30px solid White;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 25px;
+
 }
 
 .footer .footer-content .footer-section{
@@ -343,6 +344,7 @@ border-top: 30px solid White;
 
 /*----------Section 1------------*/
 
+
 .footer .footer-content .about .socials a{
 	color: Gray;
 	border: 1px solid Gray;
@@ -363,29 +365,13 @@ border-top: 30px solid White;
 }
 
 .about{
-	margin-left: 100px;
+	margin-left: 50px;
 }
 
 
 /*--------------------------------*/
 
 
-
-/*-----------Section 2------------*/
-.footer .footer-content .links ul a{
-	display: block;
-	margin-bottom: 10px;
-	font-size: 1.2em;
-	color: Gray;
-	transition: all .3s;
-	text-decoration: none;
-}
-.footer .footer-content .links ul a:hover{
-	margin-left:15px;
-	color: White;
-	transition: all .3s;
-}
-/*--------------------------------*/
 
 
 /*----------Section 3------------*/
@@ -414,15 +400,11 @@ border-top: 30px solid White;
 
 /*-------------------------------*/
 
-.footer .referees{
-	padding-left: 25px;
-	display: inline-block;
-	vertical-align: top;
-}
+
 
 .referees p{
 	text-align: left;
-
+	font-size: 0.9em;
 }
 
 .footer .footer-bottom{
