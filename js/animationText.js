@@ -1,8 +1,8 @@
 // List of sentences
 var _CONTENT = [
-	"GRAPHIC DESIGNER",
+	"UNITY DEVELOPER",
   "WEB DESIGNER",
-	"UI DESIGNER",
+	"UX DESIGNER",
 	"FRONTEND DEVELOPER"
 ];
 
