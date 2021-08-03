@@ -1,9 +1,8 @@
 // List of sentences
 var _CONTENT = [
 	"UNITY DEVELOPER",
-  "WEB DESIGNER",
-	"UX DESIGNER",
-	"FRONTEND DEVELOPER"
+  "GAME DEVELOPER",
+	"UNITY VFX DESIGNER",
 ];
 
 // Current sentence being processed
